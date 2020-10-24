@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/yunflix/precache-manifest.5d35b57fd0da3c801b02dce038d8ffb6.js"
+  "/yunflix/precache-manifest.b915ee6be416f73a15b4ad4a4d9f9bed.js"
 );
 
 self.addEventListener('message', (event) => {
