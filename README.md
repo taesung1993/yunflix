@@ -12,3 +12,11 @@
 <br/><br/><br/><br/>
 
 **리액트 훅(React Hooks)를 이용한 이유**는 <u>코드의 간결화와 편리하게 state를 관리하기 위함</u>입니다. 각 라우트 컴포넌트에 맞는 데이터를 Axios를 이용해서 받았고, 그 데이터를 state에 담아서 컴포넌트로 전송하기 위해 useContext와 useReducer를 사용하였습니다.</br>
+
+## 🌞 PREVIEW
+
+[사이트 주소(Netilix)](https://fervent-shirley-991dad.netlify.app/)
+
+## 프레임워크
+
+![screentshot](./images/frameworks.png)
