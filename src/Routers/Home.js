@@ -107,7 +107,7 @@ const Home = () => {
                         <Writer>Developer Taesung Yun</Writer>
                     </Greeting>
                     <LinkBox>
-                        <Link href="naver.com">
+                        <Link href="https://github.com/taesung1993/yunflix">
                             <Circle>
                                 <Icon className="fab fa-github"></Icon>
                             </Circle>
