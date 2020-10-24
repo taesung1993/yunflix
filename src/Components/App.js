@@ -8,7 +8,7 @@ import GlobalStyles from "Components/GlobalStyles";
 const App = () => {
   return (
     <UserContextProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Header/>
         <Routes/>
       </Router>
