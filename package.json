@@ -13,15 +13,19 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "styled-components": "^5.2.0",
-    "styled-reset": "^4.2.3"
+    "styled-reset": "^4.2.3",
+
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "https://taesung1993.github.io/yunflix",
   "browserslist": {
     "production": [
       ">0.2%",
