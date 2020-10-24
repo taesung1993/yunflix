@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/yunflix/static/js/main.7568cfcf.chunk.js",
-    "main.js.map": "/yunflix/static/js/main.7568cfcf.chunk.js.map",
+    "main.js": "/yunflix/static/js/main.593f013f.chunk.js",
+    "main.js.map": "/yunflix/static/js/main.593f013f.chunk.js.map",
     "runtime-main.js": "/yunflix/static/js/runtime-main.7e8a81a9.js",
     "runtime-main.js.map": "/yunflix/static/js/runtime-main.7e8a81a9.js.map",
     "static/js/2.1196e7a4.chunk.js": "/yunflix/static/js/2.1196e7a4.chunk.js",
     "static/js/2.1196e7a4.chunk.js.map": "/yunflix/static/js/2.1196e7a4.chunk.js.map",
     "index.html": "/yunflix/index.html",
-    "precache-manifest.9afcce9f1d44d94a4bf280bf408ef240.js": "/yunflix/precache-manifest.9afcce9f1d44d94a4bf280bf408ef240.js",
+    "precache-manifest.f789c3c9b358fdb98d19d260aef0d5f8.js": "/yunflix/precache-manifest.f789c3c9b358fdb98d19d260aef0d5f8.js",
     "service-worker.js": "/yunflix/service-worker.js",
     "static/js/2.1196e7a4.chunk.js.LICENSE.txt": "/yunflix/static/js/2.1196e7a4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7e8a81a9.js",
     "static/js/2.1196e7a4.chunk.js",
-    "static/js/main.7568cfcf.chunk.js"
+    "static/js/main.593f013f.chunk.js"
   ]
 }
