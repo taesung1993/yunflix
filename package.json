@@ -24,7 +24,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://taesung1993.github.io/yunflix",
+  "homepage": "https://fervent-shirley-991dad.netlify.app",
   "browserslist": {
     "production": [
       ">0.2%",
