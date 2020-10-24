@@ -47,7 +47,7 @@ const Show = ({id, data, type}) => {
     console.log(selected, type);
     return(
         <>
-        {data && 
+        {data.data && 
         <>
             <Helmet><title>{`${data.data.original_name}`} | YUNFLIX</title></Helmet>
            {data.data.backdrop_path && <Background bg={`https://image.tmdb.org/t/p/original${data.data.backdrop_path}`}></Background> } 

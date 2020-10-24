@@ -9,16 +9,26 @@ const Header = styled.div`
     position: relative;
     z-index: 4;
 `;
-const Poster = styled.div`
+
+const PosterWrapper = styled.div`
     width: 170px;
     height: 262px;
+    margin-right: 20px;
+    position: relative;
+`;
+
+const Poster = styled.div`
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
     background-image: url(${(props) => props.url});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
-    margin-right: 20px;
 
     &:after{
         content: "";
@@ -185,11 +195,13 @@ const Overview = ({data, type, video, similars}) => {
                         <Video src={`https://www.youtube.com/embed/${video.key}`} allow="autoplay"></Video>
             </VideoContainer>}
             <Header>
-                {poster ? 
-                <Poster url={poster && `https://image.tmdb.org/t/p/w300${poster}`}/>
-                :
-                <Noimg/>
-                }
+                <PosterWrapper>
+                    {poster ? 
+                    <Poster url={poster && `https://image.tmdb.org/t/p/w300${poster}`}/>
+                    :
+                    <Noimg/>
+                    }
+                </PosterWrapper>
                 <Outline>
                     <Title>{movieTitle||showTitle}</Title>
                     <SubInfoBar>

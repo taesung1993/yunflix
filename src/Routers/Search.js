@@ -46,7 +46,7 @@ const Search = (props) => {
         }
         dispatch({type: "LOADING"});
         getResults();   
-    }, [type, page]);
+    }, [type, page, keyword]);
 
     return (
         <>

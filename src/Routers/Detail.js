@@ -28,7 +28,7 @@ const Detail = () => {
         };
         dispatch({type:"LOADING"});
         getData(id);
-    }, []);
+    }, [pathname]);
 
     console.log(state, pathname, pathname.match(/movie|show/g, ""));
     return(

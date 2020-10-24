@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 import Noimg from "./Noimg";
 
 const imgUrl = "https://image.tmdb.org/t/p/w300";
 
-const SLink = styled.a``;
+const SLink = styled(Link)``;
 const ImgBox = styled.div`
     position: relative;
     width: 100%;
@@ -81,7 +82,7 @@ const Section = styled.section`
 const Item = ({id, title, date, poster, average, type}) => {
     return(
         <Section id={`${type}${id}`}>
-            <SLink href={`/${type}/${id}`}>
+            <SLink to={`/${type}/${id}`}>
                 <ImgBox>
                     {poster ? <Poster src={`${imgUrl}/${poster}`}></Poster> : <Noimg/>}
                 </ImgBox>
