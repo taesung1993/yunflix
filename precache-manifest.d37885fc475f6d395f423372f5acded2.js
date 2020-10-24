@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "026d22b99cb58afd86c9d3d203a70d39",
+    "revision": "70f4e72969903eeb6e2a45403d8936d7",
     "url": "/yunflix/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yunflix/static/js/2.1196e7a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0999bfd7bf02685be4ef",
-    "url": "/yunflix/static/js/main.8484d2f7.chunk.js"
+    "revision": "8dfb41433cdcc547cd13",
+    "url": "/yunflix/static/js/main.0aa8b13d.chunk.js"
   },
   {
     "revision": "1e503d8c9123c419d493",
